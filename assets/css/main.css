@@ -226,6 +226,13 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+
+
+	@media screen and (max-width: 501px) {
+		#logo {
+			height: 100px;
+		}
+	}
 /* Container */
 
 	.container {
@@ -3119,20 +3126,27 @@ input, select, textarea {
 
 			.carousel {
 				padding: 0.5em 0 0.5em 0;
+				
+				
 			}
 
 				.carousel .reel {
 					padding: 0 0.5em 0 0.5em;
+					
+					
 				}
 
 				.carousel article {
-					width: 14em;
-					padding-bottom: 2em;
-					margin: 0 0.5em 0 0;
+					width: 12em;
+					margin: 1em 0.5em 0 0;
+					
+					
 				}
 
 					.carousel article .image {
-						margin-bottom: 2em;
+						margin-bottom: 0.5em;
+						
+						
 					}
 
 	}
