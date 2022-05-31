@@ -1,6 +1,137 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
+#banner-cookies {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    width: 300px;
+    background-color: #2d6e97a2;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    margin-left: 150px;}
+
+
+	@media screen and (max-width: 736px) {
+
+		#banner-cookies {
+			margin-left: 10px;
+		}
+
+	}
+    
+	#banner-txt {
+        font-size: 0.9rem;
+        margin: 0;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+
+    #cookies-buttons-box {
+        display: flex;
+		justify-content: space-between;    
+    }
+
+
+
+
+    #banner-button-accept{
+		display: flex;
+		justify-content: center;
+        background-color: rgba(255, 0, 0, 0.634);
+		border: solid;
+		border-color: black;
+		width: 30%;
+		
+}
+
+#banner-button-decline{
+	display: flex;
+		justify-content: center;
+	background-color: #2d6e978f;
+	border: solid;
+	width: 30%;
+}
+
+#banner-button-pref{
+	display: flex;
+		justify-content: center;
+	background-color: #2d6e978f;
+	border: solid;
+	width: 30%;
+}
+.hidden-consent {
+    visibility: hidden;
+}
+
+.visible-consent {
+    visibility: visible;
+}
+
+#cookies-preferences {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    width: 300px;
+    background-color: #2d6e978f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;}
+
+    
+   
+    #checkbox-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+       
+
+        label{
+            font-size: 0.9rem;
+            text-align: center;
+            color: white;
+        }
+    
+
+#titrepref {
+	font-size: medium;
+	color: rgba(255, 255, 255, 0.753);
+	text-decoration: underline;
+}
+#titrepref2 {
+	font-size: small;
+	color: rgba(255, 255, 255, 0.753);
+}
+#textepref {
+	color: rgba(255, 255, 255, 0.753);
+	font-size: smaller;
+	text-align: center;
+}
+
+    #validate-pref {
+        font-size: 0.9rem;
+        border: solid;
+		border-color: rgba(255, 255, 255, 0.748);
+        border-radius: 2px;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.888);
+        font-family: 'Barbaro-Western';
+        font-weight: 500;
+        background-color:rgba(255, 0, 0, 0.634)
+    }
 
 
 html, body, div, span, applet, object,
